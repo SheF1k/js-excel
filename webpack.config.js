@@ -8,6 +8,15 @@ const isProd = process.env.NODE_ENV === 'production'
 const isDev = !isProd
 
 const filename = (ext) => (isDev ? `bundle.${ext}` : `bundle.[hash].${ext}`)
+const jsLoaders = () => {
+  const loaders = ['babel-loader']
+
+  if (isDev) {
+    loaders.push('eslint-loader')
+  }
+
+  return loaders
+}
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
@@ -61,7 +70,11 @@ module.exports = {
           'sass-loader',
         ],
       },
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: jsLoaders(),
+      },
     ],
   },
 }
