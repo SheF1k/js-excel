@@ -28,7 +28,11 @@
     "url": "https://github.com/SheF1k/js-excel/issues"
   },
   "homepage": "https://github.com/SheF1k/js-excel#readme",
+  "browserslist": "> 0.25%, not dead",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "html-webpack-plugin": "^4.3.0",
