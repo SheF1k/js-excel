@@ -46,6 +46,9 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "css-loader": "^3.5.3"
+    "@babel/polyfill": "^7.8.7",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.3",
+    "regenerator-runtime": "^0.13.5"
   }
 }
