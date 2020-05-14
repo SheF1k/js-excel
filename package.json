@@ -1,0 +1,35 @@
+{
+  "name": "js-excel",
+  "version": "1.0.0",
+  "description": "Pure Javascript Excel app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheF1k/js-excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel",
+    "npm",
+    "node",
+    "webpack",
+    "css",
+    "scss"
+  ],
+  "author": "Oleksandr Reida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheF1k/js-excel/issues"
+  },
+  "homepage": "https://github.com/SheF1k/js-excel#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
