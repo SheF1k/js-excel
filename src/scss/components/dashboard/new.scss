@@ -1,0 +1,26 @@
+.db-new {
+  margin-top: $db-header-height;
+  padding: 1.5rem;
+  background: #dadce0;
+
+  &__create {
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #dadce0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+
+    &:hover {
+      cursor: pointer;
+      color: green;
+      border-color: green;
+    }
+  }
+}

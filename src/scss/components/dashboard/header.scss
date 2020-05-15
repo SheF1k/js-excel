@@ -1,0 +1,13 @@
+.db-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: $db-header-height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 2px rgba(60, 64, 67, 0.15);
+  z-index: 1000;
+}
