@@ -4,18 +4,22 @@
 @import './utils/index';
 @import './components/index';
 
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-}
-
 .excel {
   position: relative;
   color: #888;
+  height: 100%;
+  font-size: 0.8rem;
+  max-width: 100%;
 }
